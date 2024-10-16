@@ -11,14 +11,17 @@ body {
       
 }
 
-.logoContainer {
-    background-color: #a81aef;
-    border-bottom: black solid 7px;
-    text-align: center; 
-}
+.container {
+    background-image: url("https://media.istockphoto.com/id/1459373176/it/vettoriale/sfondo-astratto-sfocato-primavera-estate-mare.jpg?s=612x612&w=0&k=20&c=KrVT4AxEwW9Rx1wd-b1g3EJeuLUQFpYQyAXT847XcFo=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    border: black solid;
+    border-radius: 4%;
+    margin-bottom: 500px;
+    margin-left: 300px;
+    margin-right: 300px;
 
-.logo {
-    
 }
 
 .taskContainer {
