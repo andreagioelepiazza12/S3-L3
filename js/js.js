@@ -15,6 +15,15 @@ btn.addEventListener("click", function (){
         li.classList.toggle("completed");
     })
 
+    const del = document.createElement("button");
+    del.classList.add("del");
+
+    del.addEventListener("click", function(){
+        li.remove();
+    })
+
+    li.appendChild(del);
+
     taskList.appendChild(li);
 
     input.value = "";

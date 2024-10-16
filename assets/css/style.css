@@ -57,14 +57,32 @@ body {
 }
 
 li {
+    
     display: flex;
     justify-content: space-between;
     padding: 10px;
     border-bottom: 1px;
     font-size: 30px;
+    position: relative; 
+    padding-left: 20px; 
+    margin: 5px 0;
 }
 
 li.completed {
     text-decoration: line-through;
     color: #e21818;
+    
+}
+
+li.completed::before {
+    content: '✓'; 
+    position: absolute; 
+    left: 0; 
+    color: green; 
+    font-weight: bold; 
+}
+
+.del {
+    width: 40px;
+    height: 40px;
 }
