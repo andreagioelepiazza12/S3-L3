@@ -1,0 +1,70 @@
+body {
+    background-image: url("https://openclipart.org/image/800px/281635");
+    background-color: whitesmoke;
+
+    
+        font-family: "Roboto Condensed", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        margin: 0;
+      
+}
+
+.logoContainer {
+    background-color: #a81aef;
+    border-bottom: black solid 7px;
+    text-align: center; 
+}
+
+.logo {
+    
+}
+
+.taskContainer {
+    text-align: center;
+}
+
+.taskContainer h1 {
+    font-weight: bolder;
+    font-size: 50px;
+    color: blueviolet;
+
+}
+
+#taskInput {
+    width: 60%;
+    height: 40px;
+    font-size: 35px;
+    
+}
+
+#invio {
+    height: 40px;
+    margin-top: 0;
+    font-size: 15px;
+    background-color :#a81aef;
+    color: whitesmoke;
+}
+
+#clear {
+    height: 40px;
+    margin-top: 0;
+    font-size: 15px;
+    background-color :#a81aef;
+    color: whitesmoke;
+
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    font-size: 30px;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #e21818;
+}
